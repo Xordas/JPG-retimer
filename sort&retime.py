@@ -69,5 +69,5 @@ end_time = time.time()  # Record the end time
 total_time = end_time - start_time  # Calculate the total time
 
 print(f'Processed {sum(processed_counts)} images and moved {sum(moved_counts)} images in {total_time:.2f} seconds')
-
+print("Made by Xordas")
 input("Press Enter to close...")
