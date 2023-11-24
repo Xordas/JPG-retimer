@@ -7,7 +7,7 @@ import shutil
 import re
 
 # Define the path to the destination directory
-destination_path = 'F:'
+destination_path = 'CHANGE ME'
 
 # Create a new directory for this run
 run_directory = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -48,8 +48,8 @@ start_time = time.time()  # Record the start time
 # Get today's date
 today = datetime.datetime.now()
 
-# Define the path to the removable drive and the folder
-folder_path = os.path.join('D:', 'DCIM', '100NCD60')
+# Define the path to the folder with the jpg's
+folder_path = os.path.join('CHANGE ME')
 
 try:
     files = os.listdir(folder_path)
